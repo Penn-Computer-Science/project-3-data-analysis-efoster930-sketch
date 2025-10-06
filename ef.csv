@@ -1,14 +1,4 @@
 Names: ,Devices: ,Streaming services: ,Average time: ,Satisfaction: 
-Santiago,Smartphone,TVshows/series,6,8
-Henry,Laptop/DesktopTablet,News,6,8
-Olivia,Other,Movies,10,8
-Sarah,Smartphone,TVshows/series,3,8
-Jack,Other,Other,0,8
-Andrew,Other,News,3,8
-Mac,Smartphone,TVshows/series,2,8
-Kyan Fogarty,Other,Other,3,8
-Jordan Terrell Carter,Smartphone,Movies,6,8
-Steven,Other,Other,0,8
 Kevin,Laptop/DesktopTablet,Movies,3,8
 Alice,Other,News,6,8
 Bob,Smartphone,TVshows/series,2,8
@@ -24,3 +14,14 @@ Zara,Smart TV,TVshows/series,10,8
 Quinn,Other,News,10,8
 Riley,Laptop/DesktopTablet,Other,10,8
 Sam,Smart TV,Other,2,8
+Santiago,Laptop/Desktop,Sports,10,6,3,
+Henry,Smartphone,TV shows/series,6,10,3,
+Olivia,Laptop/Desktop,TV shows/series,3,7,2,
+Sarah,Smartphone,YouTube videos,0,5,0,
+Jack,Smart TV,Movies,0,6,1,
+Andrew,Laptop/Desktop,TV shows/series,10,8,2,one
+Mac,Smartphone,TV shows/series,6,7,1,No.
+Kyan Fogarty,Smart TV,TV shows/series,6,7,6,
+Jordan Terrell Carter,Smartphone,Sports,3,8,2,
+Steven,Smart TV,News,2,6,2,
+Roman Williams,Smartphone,YouTube,10,7,1
