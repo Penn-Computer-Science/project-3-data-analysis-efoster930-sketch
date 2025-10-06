@@ -39,5 +39,6 @@ data = pd.DataFrame({
     'Satisfaction: ': [random.choice(satisfied)  for _ in people]
     })
 
-efDaTa = pd.DataFrame(data)
-efDaTa.to_csv("ef.csv", index=False)
+efData = pd.DataFrame(data)
+#efData.to_csv("ef.csv", index=False)
+print(efData.describe())
