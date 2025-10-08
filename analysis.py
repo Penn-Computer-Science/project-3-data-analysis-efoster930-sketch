@@ -3,7 +3,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import random
 
-df = pd.read_csv("ef.csv")
+df = pd.read_csv("ef2.csv")
 ef = pd.DataFrame(df)
 
 print("-_"*20)
@@ -41,11 +41,13 @@ plt.xlabel("Device")
 plt.ylabel("Number of People")
 plt.show()
 
+#The autopct = "%1.1f%" is used to calucate the percentages of of each pie slice.
 pie_chart = ef["Streaming services: "].value_counts().plot(kind="pie", autopct="%1.1f%%")
 plt.title("Streaming Services Used by People")
 plt.ylabel("")
 plt.show()
 
+#I learned that sns can be used to visualize statistical graphics so I learned some ways to use it.
 scatter_plot = sns.scatterplot(data=ef, x="Average time: ", y="Satisfaction: ", hue="Devices: ")
 plt.title("Average Time vs Satisfaction")
 plt.xlabel("Average Time (hours)")
@@ -67,4 +69,10 @@ plt.show()
 average_time_piechart = ef["Average time: "].value_counts().plot(kind="pie", autopct="%1.1f%%")
 plt.title("Average Time Distribution")
 plt.ylabel("")
+plt.show()
+
+stream_services_histogram = ef["Streaming services: "].value_counts().plot(kind="bar", color=["cyan", "magenta", "yellow", "black", "grey"])
+plt.title("Streaming Services Distribution")
+plt.xlabel("Streaming Service")
+plt.ylabel("Number of People")
 plt.show()
