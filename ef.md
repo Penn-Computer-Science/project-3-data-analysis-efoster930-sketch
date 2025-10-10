@@ -43,9 +43,14 @@ List each chart you made, its type, and what it shows. Add a link or embed an im
 
 | # | Chart Title | Chart Type (Bar, Histogram, Scatter, etc.) | Brief Description | Link or Image |
 |---|-------------|-------------------------------------------|-------------------|---------------|
-| 1 | _Streaming Services Distribution_ | Histogram | Shows how many people are in each streaming services. | ![Chart 1](c:\Users\efoster930\Figure_7.png) |
+| 1 | _Streaming Services Distribution_ | Histogram | Shows how many people are in each streaming services. | ![Chart 1](Figure_1.png) |
 | 2 | _Distribution of Screen Time_ | Histogram | Shows how many students fall into different screen-time ranges. | ![Chart 2](chart2.png) |
 | 3 | _Caffeine Consumption vs GPA_ | Scatter Plot | Shows relationship between caffeine intake and GPA. | ![Chart 3](chart3.png) |
+| 4 | _Streaming Services Distribution_ | Histogram | Shows how many people are in each streaming services. | ![Chart 1](c:\Users\efoster930\Figure_7.png) |
+| 5 | _Distribution of Screen Time_ | Histogram | Shows how many students fall into different screen-time ranges. | ![Chart 2](chart2.png) |
+| 6 | _Caffeine Consumption vs GPA_ | Scatter Plot | Shows relationship between caffeine intake and GPA. | ![Chart 3](chart3.png) |
+| 7 | _Streaming Services Distribution_ | Histogram | Shows how many people are in each streaming services. | ![Chart 1](c:\Users\efoster930\Figure_7.png) |
+
 
 ---
 
