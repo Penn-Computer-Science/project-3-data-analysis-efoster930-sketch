@@ -46,9 +46,9 @@ List each chart you made, its type, and what it shows. Add a link or embed an im
 | 1 | _Devices Used by People_ | Bar Chart | Shows how many people are in each device to watch their streaming services. | ![Chart 1](Figure_1.png) |
 | 2 | _Streaming Services Used by People_ | Pie Chart | The pie chart shows the percentage of people in each streaming service. | ![Chart 2](Figure_2.png) |
 | 3 | _Average Time vs Satisfaction_ | Scatterplot | The scatterplot shows how each person falls in x, average hours, and y, satisfaction, and the relationship between average time and satisfaction. | ![Chart 3](Figure_3.png) |
-| 4 | _Satisfaction by Device_ | Histogram | Shows how many people are in each streaming services. | ![Chart 4](Figure_4.png) |
-| 5 | _Distribution of Screen Time_ | Histogram | Shows how many students fall into different screen-time ranges. | ![Chart 5](Figure_5.png) |
-| 6 | _Caffeine Consumption vs GPA_ | Scatter Plot | Shows relationship between caffeine intake and GPA. | ![Chart 6](Figure_6.png) |
+| 4 | _Satisfaction by Device_ | Boxplot | Shows the satisfaction in each device with the boxplot (representing satisfaction) showing the 25th, 50th, and 75th percentile, plus any outliers, based on the responses by the data and shows the relationship between satisfaction and devices. | ![Chart 4](Figure_4.png) |
+| 5 | _Average Time by Device_ | Boxplot | Shows the average time in each device with the boxplot (representing average time) showing the 25th, 50th, and 75th percentile, plus any outliers, based on the responses by the data and shows the relationship between devices and average time. | ![Chart 5](Figure_5.png) |
+| 6 | _Average Time Distribution_ | Pie chart | The pie chart shows the amount of people in each amount of average time, in percentage, and shows what average amount of hours is the least and the average amount of hours that's the most. | ![Chart 6](Figure_6.png) |
 | 7 | _Streaming Services Distribution_ | Histogram | Shows how many people are in each streaming services. | ![Chart 7](Figure_7.png) |
 
 
