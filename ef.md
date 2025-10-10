@@ -23,7 +23,7 @@ List the questions you asked in your survey and their type:
 | 2 | Which of the following devices do you use most often to stream content?| Multiple choice
 | 3 | What type of content do you watch most frequently?| Multiple choice
 | 4 | On average, how many hours per week do you spend streaming content? ___ hours (type one to two numbers)| Numeric
-| 5 | On a scale from 1 to 10, how satisfied are you with your current streaming platform? (1 = not satisfied at all, 10 = very satisfied)| 
+| 5 | On a scale from 1 to 10, how satisfied are you with your current streaming platform? (1 = not satisfied at all, 10 = very satisfied)| Numeric
 | 6 | How many different streaming platforms do you currently subscribe to? ___ platforms (type one to two numbers)| Numeric
 
 
@@ -57,7 +57,7 @@ List each chart you made, its type, and what it shows. Add a link or embed an im
 ## Data Analysis & Insights
 Write a short analysis of your findings. Include at least one interesting insight from your data.
 
-> _Example:_ “We found that students who sleep 7–8 hours per night reported higher average GPAs than those who sleep less than 5 hours. Energy drink consumption peaked among 11th graders.”
+Based on my analysis, I learned that surprisingly, based on chart 6, that the highest percentage in the pie chart is 10 hours, which is insane to me because I didn't think people spend that much amount of time on streaming services. 
 
 ---
 
