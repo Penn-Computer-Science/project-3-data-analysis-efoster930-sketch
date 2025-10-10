@@ -3,14 +3,14 @@
 ## Project Info
 - **Project Title:** _Your project title here_
 - **Your Name:**
-- **Date:** _MM/DD/YYYY_
+- **Date:** 10/08/2025
 
 ---
 
 ## Survey Information
-- **Survey Topic:** _Briefly describe what your survey is about_
-- **Survey Link:** [Click here to view survey](https://example.com)
-- **Number of Responses:** _e.g., 25_
+- **Survey Topic:** My survey is about streaming services and what devices, amount of hours, frequently of the streaming service they go on, satisfaction of the streaming service, and the amount of streaming sevices they go on.
+- **Survey Link:** [Click here to view survey](https://docs.google.com/forms/d/1I42bcyZIuZbXKUykX20CxfEDr_9rBh6pLJVtu-BLHvQ/edit)
+- **Number of Responses:** 11
 
 ---
 
@@ -19,16 +19,21 @@ List the questions you asked in your survey and their type:
 
 | # | Question Text | Response Type (Multiple Choice / Numeric / Text) |
 |---|---------------|-------------------------------------------------|
-| 1 | _Example: How many hours do you sleep on school nights?_ | Numeric |
-| 2 | _Example: What is your favorite study snack?_ | Multiple Choice |
-| 3 | _..._ | _..._ |
+| 1 | Your name?| Text
+| 2 | Which of the following devices do you use most often to stream content?| Multiple choice
+| 3 | What type of content do you watch most frequently?| Multiple choice
+| 4 | On average, how many hours per week do you spend streaming content? ___ hours (type one to two numbers)| Numeric
+| 5 | On a scale from 1 to 10, how satisfied are you with your current streaming platform? (1 = not satisfied at all, 10 = very satisfied)| 
+| 6 | How many different streaming platforms do you currently subscribe to? ___ platforms (type one to two numbers)| Numeric
+
+
 
 ---
 
 ## Data Overview
-- **Link to Raw Data File (CSV):** [Download here](./data.csv)
-- **Number of Columns:** _e.g., 6_
-- **Number of Rows:** _e.g., 25_
+- **Link to Raw Data File (CSV):** [Download here](ef2.csv)
+- **Number of Columns:** 5
+- **Number of Rows:** 26
 - **Any Cleaning Steps Taken:** _Describe what you did (handled missing values, renamed columns, converted data types, etc.)_
 
 ---
@@ -38,7 +43,7 @@ List each chart you made, its type, and what it shows. Add a link or embed an im
 
 | # | Chart Title | Chart Type (Bar, Histogram, Scatter, etc.) | Brief Description | Link or Image |
 |---|-------------|-------------------------------------------|-------------------|---------------|
-| 1 | _Average Sleep by Grade Level_ | Bar Chart | Shows average hours of sleep for each grade level. | ![Chart 1](chart1.png) |
+| 1 | _Streaming Services Distribution_ | Histogram | Shows how many people are in each streaming services. | ![Chart 1](c:\Users\efoster930\Figure_7.png) |
 | 2 | _Distribution of Screen Time_ | Histogram | Shows how many students fall into different screen-time ranges. | ![Chart 2](chart2.png) |
 | 3 | _Caffeine Consumption vs GPA_ | Scatter Plot | Shows relationship between caffeine intake and GPA. | ![Chart 3](chart3.png) |
 
