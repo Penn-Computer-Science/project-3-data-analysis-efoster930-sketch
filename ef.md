@@ -57,15 +57,18 @@ List each chart you made, its type, and what it shows. Add a link or embed an im
 ## Data Analysis & Insights
 Write a short analysis of your findings. Include at least one interesting insight from your data.
 
-Based on my analysis, I learned that surprisingly, based on chart 6, that the highest percentage in the pie chart is 10 hours, which is insane to me because I didn't think people spend that much amount of time on streaming services. 
+Based on my analysis, I learned that surprisingly, based on chart 6, that the highest percentage in the pie chart is 10 hours, which is insane to me because I didn't think people spend that much amount of time on streaming services. Another interesting thing is in chart 2 there is 7.6% of people that watch Youtube, which is interesting to me because I thought it would be much higher than that. I learned that Smart TV has the most amount of users that chose it and sports is the most used streaming service chosen by users. Just something that I wanted to point out.
 
 ---
 
 ## Reflection
 Answer briefly:
 - What went well in your project?
+I think creating the images, while took me a bit to understand how to code at first, was definitely something that went well. Creating the data frame was pretty simple too honestly.
 - What was the most challenging part?
+Making the data transfer on to the analysis.py so I can take a look at it.
 - If you had more time, what would you do differently?
+Maybe analysis a little more and include more people in it. I would also try to find new other ways to analysis the data from the internet just out of curiosity.
 
 ---
 
