@@ -44,7 +44,7 @@ plt.imshow(x_train[random.randint(0,59999)][:,:,0],cmap='gray')
 plt.show()
 batch_size = 128  #This is how many images we process at once.
 num_classes = 10 #There are 10 digits (0-9)
-epochs = 5 #How many times we go through the whole dataset.
+epochs = 2 #How many times we go through the whole dataset.
 
 #Build the model.... Finally...
 model = tf.keras.models.Sequential([
@@ -54,7 +54,31 @@ model = tf.keras.models.Sequential([
         tf.keras.layers.Dropout(0,25),
         tf.keras.layers.Conv2D(64,(3,3),padding = 'same',activation = 'relu',input_shape=input_shape),
         tf.keras.layers.Conv2D(64,(3,3),padding = 'same',activation = 'relu',input_shape=input_shape),
+        tf.keras.layers.Flatten(),
         tf.keras.layers.Dense(num_classes, activation = 'softmax')
 ])
 
-model.compile(optimizer = tf.keras.optimizers.MSprop(epsilion = le-08), loss = 'categorical_crossentropy', metrics = ['acc'])
+#The code forces the model to use a category.
+model.compile(optimizer = 'Adam', loss = 'categorical_crossentropy', metrics = ['acc']) #This code is setting up how the model learns.
+history = model.fit(x_train, y_train, batch_size = batch_size, epochs = epochs, validation_data=(x_test, y_test)) #This code is training the model.
+
+#plot out training and validation accuracy and loss
+flg, ax = plt.subplots(2,1) #Create 2 plots, one on top of the other.
+ax[0].plot(history.history['loss'], color = 'b', label="Training Loss")
+ax[0].plot(history.history['val_loss'], color = 'r', label="Validation Loss")
+legend = ax[0].legend(loc='best', shadow=True)
+ax[0].set_title('Loss')
+ax[0].set_xlabel('Epochs')
+ax[0].set_ylabel('Loss')
+#The section of code top plotting the loss.
+
+#The section of code below is plotting the accuracy.
+ax[1].plot(history.history['acc'], color = 'b', label="Training Accuracy")
+ax[1].plot(history.history['val_loss'], color = 'r', label="Validation Accuracy")
+legend = ax[1].legend(loc='best', shadow=True)
+ax[1].set_title('Accuracy')
+ax[1].set_xlabel('Epochs')
+ax[1].set_ylabel('Accuracy')
+
+plt.tight_layout() #Make sure everything fits without overlapping.
+plt.show()
